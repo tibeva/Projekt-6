@@ -1,0 +1,36 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+main {
+  display: flex;
+
+  height: 100%;
+}
+header {
+  background-color: rgb(237, 237, 175);
+
+  height: 200px;
+}
+
+aside {
+  background-color: rgb(186, 218, 186);
+
+  width: 25%;
+}
+
+section {
+  background-color: rgb(176, 176, 191);
+
+  width: 75%;
+}
+footer {
+  background-color: rgb(244, 222, 183);
+
+  height: 100px;
+}
